@@ -1,18 +1,14 @@
 body {
     margin: 0;
-<<<<<<< HEAD
     /* display: flex;
     justify-content: space-between;
     flex-direction: column; */
-=======
->>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
 }
 
 body, body * {
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 main {
     flex: 1 0 auto;
     display: flex;
@@ -56,103 +52,5 @@ button.filled.active, button.filled:hover {
 a:hover {
     text-decoration: none;
 }
-
-=======
-header {
-    color: white;
-    font-family: sans-serif;
-    background-color: rgba(50, 50, 50, 0.5);
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-header nav ul {
-    
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row; /*ja é padrao do flex*/
-    
-}
-
-header .logo {
-    height: 70px;
-    width: 150px;
-    display: block;
-    background-position: center;
-    background-image: url("../img/logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-
-}
-
-header div h3 {
-    text-transform: uppercase;
-}
-
-header div h3 span {
-    color: #2f343d;
-}
-
-header nav ul li {
-    padding: 0 10px;
-}
-
-header nav ul li a {
-    color: unset;
-    text-decoration: none;
-
-}
-
-section {
-    width: 100%;
-    height: 500px;
-    background: white;
-    
-}
-
-footer#rodape {
-    color: white;
-    font-family: sans-serif;
-    background-color: rgba(50, 50, 50, 0.5);
-   
-}
-
-
-footer#rodape div {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-     padding-top: 10px;
-    padding-bottom: 10px;
-
-    
-}
-
-#rodape div img {
-    display: block;
-    margin: auto;
-}
-
-.copyrights a {
-    color: #262626;
-    font-weight: 800;
-    text-decoration: none;
-}
-
-.copyrights a:hover {
-    color: rgba(50, 50, 50, 0.5);
-}
->>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
 
 
