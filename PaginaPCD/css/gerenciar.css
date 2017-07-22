@@ -1,0 +1,60 @@
+
+/*MAIN TABLE*/
+#mainTable th{
+    background-color: #4045FF;
+    color: white;
+}
+
+/*INNER TABLE*/
+#innerTable tr{
+    background-color: white;
+     border-color: red;
+}
+#innerTable td:hover {
+    background-color: blue;
+    color: white;
+   
+}
+/*NAVBAR*/
+.navbar {
+    border: 0;
+    border-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 4px;
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+.navbar-nav  li a:hover {
+    color: #4045FF !important;
+    background-color: none;
+
+}
+
+/*BTN ICON*/
+button.btn:hover{
+    color:blue;
+}
+
+/*FOOTER*/
+footer.container-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bg-4 { 
+    background-color: rgba(50, 50, 50, 0.5); /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+#fLink {
+    color: #4045FF;
+    text-decoration: none;
+}
+/*#2f2f2f*/

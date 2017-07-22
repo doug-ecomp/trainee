@@ -1,0 +1,58 @@
+
+header {
+    color: white;
+    font-family: sans-serif;
+    background-color: rgba(120, 120,120, 0.5);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ 
+@media (max-width: 600px){
+    header h4 {
+     text-align: center;
+     font-size: 14px;
+ }
+}
+
+header nav ul {
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; /*ja é padrao do flex*/
+    
+}
+
+header .logo {
+    height: 70px;
+    width: 150px;
+    display: block;
+    background-position: center;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+header div h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header div h4 span {
+    color: #2f343d;
+}
+
+header nav ul li {
+    padding: 0 10px;
+}
+
+header nav ul li a {
+    color: unset;
+    text-decoration: none;
+
+}

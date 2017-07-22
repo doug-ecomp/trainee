@@ -1,0 +1,82 @@
+
+header {
+    color: white;
+    font-family: sans-serif;
+<<<<<<< HEAD
+    background-color: rgba(120, 120,120, 0.5);
+=======
+    background-color: rgba(50, 50, 50, 0.5);
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+<<<<<<< HEAD
+}
+ 
+@media (max-width: 600px){
+    header h4 {
+     text-align: center;
+     font-size: 14px;
+ }
+=======
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
+}
+
+header nav ul {
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; /*ja é padrao do flex*/
+    
+}
+
+header .logo {
+    height: 70px;
+    width: 150px;
+    display: block;
+    background-position: center;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+<<<<<<< HEAD
+header div h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header div h4 span {
+=======
+header div h3 {
+    text-transform: uppercase;
+}
+
+header div h3 span {
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
+    color: #2f343d;
+}
+
+header nav ul li {
+    padding: 0 10px;
+}
+
+header nav ul li a {
+    color: unset;
+    text-decoration: none;
+
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad

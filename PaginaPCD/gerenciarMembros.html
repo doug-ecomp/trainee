@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Gerenciar Membros</title>
+    <link rel="stylesheet" type="text/css" href="css/gerenciar.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/admPCD.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <nav class="nav navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="http://www.ecompjr.com.br/">
+                
+                <img id="logoMenu" src="img/logomarca.png" width="30px">
+            
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-list"></span> <b>Regras</b></a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span><b> Login</b></a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid ">
+        <div class="col-lg-offset-2 col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading"><h3>Membros</h3></div>
+                    <div class="panel-body">
+                        <table id="mainTable" class="table table-condensed table-hover table-responsive" style="border-collapse:collapse;">
+
+                            <thead>
+                                <tr>
+                                    <th>&nbsp;</th>
+                                    <th>Nome</th>
+                                    <th>Cargo</th>        
+                                                       
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <!-- MAIN TABLE ROW-->
+                                <tr id="mtrow1" data-toggle="collapse" class="accordion-toggle">
+                                    <td><button id="btn1MT" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-plus"></span></button></td>
+                                    <td>Gustavo</td>
+                                    <td>Trainee</td>
+                                
+                                </tr>
+                                <!--HIDDEN ROW -->
+                                <tr>
+                                    <td colspan="12" class="hiddenRow">
+                                        <div class="accordian-body collapse " id="hrow1"> 
+                                            <table id="innerTable" class="table table-responsive table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Motivo</th>
+                                                            <th>Data</th>
+                                                            <th>Pontos</th>
+                                                            <th>Responsável</th>
+                                                            <th>Indeferida</th>
+                                                        </tr>
+                                                        
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Ausência nas reuniões</td>
+                                                            <td>22/07/2017</td>
+                                                            <td>4</td>
+                                                            <td>Kayo Costa</td>
+                                                            <td>Não</td>
+                                                        </tr>  
+                                                         <tr>
+                                                            <td>Ausência nas reuniões</td>
+                                                            <td>22/07/2017</td>
+                                                            <td>4</td>
+                                                            <td>Kayo Costa</td>
+                                                            <td>Não</td>
+                                                        </tr>  
+                                                         <tr>
+                                                            <td>Ausência nas reuniões</td>
+                                                            <td>22/07/2017</td>
+                                                            <td>4</td>
+                                                            <td>Kayo Costa</td>
+                                                            <td>Não</td>
+                                                        </tr>  
+                                                    </tbody>
+                                            </table>
+                                        </div> 
+                                    </td>
+                                </tr>   
+                                <!-- MAIN TABLE ROW-->
+                                <tr id="mtrow2" data-toggle="collapse" class="accordion-toggle">
+                                    <td><button id="btn2MT" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-plus"></span></button></td>
+                                    <td>Kayo</td>
+                                    <td>DRH</td>                             
+                                </tr>  
+                                <!--HIDDEN ROW -->
+                                <tr>
+                                    <td colspan="12" class="hiddenRow">
+                                        <div class="accordian-body collapse" id="hrow2"> 
+                                            <table id="innerTable" class="table table-responsive">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Motivo</th>
+                                                            <th>Data</th>
+                                                            <th>Pontos</th>
+                                                            <th>Responsável</th>
+                                                            <th>Indeferida</th>
+                                                        </tr>
+                                                        
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Atitudes negativas</td>
+                                                            <td>22/07/2017</td>
+                                                            <td>10</td>
+                                                            <td>Pedro Neri</td>
+                                                            <td>Não</td>
+                                                        </tr>     
+                                                    </tbody>
+                                            </table>
+                                        </div> 
+                                    </td>
+                                </tr>   
+                                <!-- MAIN TABLE ROW-->
+                                <tr id="mtrow3" data-toggle="collapse" class="accordion-toggle">
+                                    <td><button id="btn3MT" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-plus"></span></button></td>
+                                    <td>Lucas</td>
+                                    <td>Membro</td>
+                                
+                                </tr>
+                                <!--HIDDEN ROW -->
+                                <tr>
+                                    <td colspan="12" class="hiddenRow">
+                                        <div class="accordian-body collapse" id="hrow3"> 
+                                            <table id="innerTable" class="table table-responsive">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Motivo</th>
+                                                            <th>Data</th>
+                                                            <th>Pontos</th>
+                                                            <th>Responsável</th>
+                                                            <th>Indeferida</th>
+                                                        </tr>
+                                                        
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Ausência nas reuniões</td>
+                                                            <td>22/07/2017</td>
+                                                            <td>4</td>
+                                                            <td>Kayo Costa</td>
+                                                            <td>Não</td>
+                                                        </tr>  
+                                                         <tr>
+                                                            <td>Ausência nas reuniões</td>
+                                                            <td>22/07/2017</td>
+                                                            <td>4</td>
+                                                            <td>Kayo Costa</td>
+                                                            <td>Não</td>
+                                                        </tr>  
+                                                         <tr>
+                                                            <td>Ausência nas reuniões</td>
+                                                            <td>22/07/2017</td>
+                                                            <td>4</td>
+                                                            <td>Kayo Costa</td>
+                                                            <td>Não</td>
+                                                        </tr>  
+                                                    </tbody>
+                                            </table>
+                                        </div> 
+                                    </td>
+                                </tr>   
+                            </tbody>
+                        </table>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <!-- HTML to write -->
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <img width="70px" src="img/logomarca.png" alt="EcompJr Logo"><br><b>
+  Copyright © <a id="fLink" target="_blank" href="https://www.ecompjr.com.br/"><b>EcompJr.</b></a>  2017</b>
+</footer>
+
+</body>
+</html>

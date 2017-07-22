@@ -1,0 +1,81 @@
+div.container {
+
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+
+    text-align: center;
+}
+
+.page-header {
+
+    color: cornflowerblue;
+}
+
+/*FOOTER*/
+footer.container-fluid {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bg-4 { 
+
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-bottom: 70px;
+    padding-top: 60px;
+   
+}
+
+#fLink {
+
+    color: #4045FF;
+    text-decoration: none;
+}
+
+/*Fim do FOOTER*/
+
+#motivos{
+
+    padding-bottom: 20px;
+}
+
+#motivos div{
+
+    background-color: azure;
+    color: darkslategray;
+    /*padding: 10px 10px 10px 10px;*/
+   
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#motivos h4{
+    color: darkslategray;
+}
+#motivos .btn{
+
+    font-size: 11pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#motivos .btn:hover{
+    
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
+}
+
+/*DIV TEXTO PCD*/
+#info {
+    
+    background-color: aliceblue;
+    font-size: 12pt;
+}
+
+

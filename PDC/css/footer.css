@@ -1,0 +1,71 @@
+<<<<<<< HEAD
+footer {
+    color: white;
+    font-family: sans-serif;
+    /* background-color: rgba(100, 100, 100, 0.5); */
+    background-color: #1d6fb7;
+=======
+footer#rodape {
+    color: white;
+    font-family: sans-serif;
+    background-color: rgba(50, 50, 50, 0.5);
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
+   
+}
+
+
+<<<<<<< HEAD
+#rodape{
+=======
+footer#rodape div {
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+<<<<<<< HEAD
+    padding-top: 10px;
+=======
+     padding-top: 10px;
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
+    padding-bottom: 10px;
+
+    
+}
+
+<<<<<<< HEAD
+#rodape img {
+=======
+#rodape div img {
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
+    display: block;
+    margin: auto;
+}
+
+<<<<<<< HEAD
+.copyrights {
+    padding: 3px;
+    font-size: 18px;
+}
+
+.copyrights a {
+     color: #95a5a6; 
+    /* color: #BDC3C7; */
+    font-weight: 800;
+}
+
+.copyrights a:hover {
+    color: #7f8c8d;
+=======
+.copyrights a {
+    color: #262626;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.copyrights a:hover {
+    color: rgba(50, 50, 50, 0.5);
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
+}
+
+

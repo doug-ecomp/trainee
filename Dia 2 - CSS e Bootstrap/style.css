@@ -1,0 +1,91 @@
+body {
+	/*background-color: lavender;*/
+	font-size: 100%;
+	background-image: url("bg.png");
+	
+	border-style: dotted;
+}
+#p1 {
+	color: rgb(39, 16, 41);
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+}
+#p2{
+	color: rgb(31, 29, 100);
+	font-family: arial;
+	text-decoration: underline;
+	letter-spacing: 0.15em;
+	line-height: 1.5;
+	border: 1;
+	text-align: justify;
+}
+
+a {
+	color: #312E32;
+	
+}
+
+a:hover {
+	background-color: red;
+}
+a:active {
+	font-size: 30px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	background-color: rgb(0%, 0%, 0%);
+	font-style: italic;
+	word-spacing: 0.3em;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+#cont{
+	margin-bottom: 60px;
+}
+
+#gokugod {
+	display: block;
+	margin: auto;
+	opacity: 0.4;
+	width: 40%;
+	
+}
+
+#gokugod:hover {
+	border: 5px dashed black;
+	opacity: 1;
+	width: 42%;
+	
+
+}
+
+#tt {
+	display: none;
+}
+
+#frase{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	background-color: yellow;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+#cont #gokugod:hover + #tt {
+	
+	display: block;
+
+	
+	
+}
+
+
+
+
