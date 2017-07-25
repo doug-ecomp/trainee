@@ -1,8 +1,9 @@
 footer {
-    color: white;
+    color: black;
     font-family: sans-serif;
     /* background-color: rgba(100, 100, 100, 0.5); */
-    background-color: #1d6fb7;
+    /* background-color: #1d6fb7; */
+     background-color: white; 
    
 }
 
@@ -29,13 +30,12 @@ footer {
 }
 
 .copyrights a {
-     color: #95a5a6; 
-    /* color: #BDC3C7; */
+    color: #1d6fb7; 
     font-weight: 800;
 }
 
 .copyrights a:hover {
-    color: #7f8c8d;
+    font-size:20px;
 }
 
 

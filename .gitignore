@@ -37,7 +37,6 @@ ehthumbs.db
 Thumbs.db
 
 #Mobile directory
-<<<<<<< HEAD
 /Mobile
 jquery-3.2.1.min.js
 PCD/bootstrap-3.3.7-dist/css/bootstrap-theme.css
@@ -74,6 +73,4 @@ PDC/bootstrap-3.3.7-dist/js/bootstrap.js
 PDC/bootstrap-3.3.7-dist/js/bootstrap.min.js
 PDC/bootstrap-3.3.7-dist/js/npm.js
 PDC/js/jquery-3.2.1.min.js
-=======
-Mobile/**
->>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
+PCD/js/jquery-3.2.1.js

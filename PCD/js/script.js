@@ -24,9 +24,11 @@ function initModal() {
 function initPage() {
 	initModal();
 
+	$.fn.datepicker.defaults.format = "dd/mm/yyyy";
+	$.fn.datepicker.defaults.autoclose = "true";
 	$('#data').datepicker({
-            format: "dd/mm/yyyy",
-            language: "pt-BR"
+			language: "pt-BR",
+			endDate: "today"
         });
 }
 
