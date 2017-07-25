@@ -20,18 +20,14 @@ function initModal() {
 	}, false);
 }
 
-// function initScroll() {
-//     const links = document.querySelectorAll("a[href^=#]");
-//
-//     for (let i = 0; i < links.length; i++) {
-//         const link = links.item(i);
-//
-//         link.addEventListener("click", () => {});
-//     }
-// }
 
 function initPage() {
-    initModal();
+	initModal();
+
+	$('#data').datepicker({
+            format: "dd/mm/yyyy",
+            language: "pt-BR"
+        });
 }
 
 window.addEventListener("load", initPage);

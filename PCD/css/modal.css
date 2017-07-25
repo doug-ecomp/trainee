@@ -1,6 +1,6 @@
 
 .myModal {
-    display: none;  
+     display: none;   
     position: fixed;
     z-index: 6;
     overflow: auto;
@@ -27,7 +27,7 @@ form div label {
 }
 
 .myModal-content {
-    background-color: rgba(100, 100, 100, 0.5);
+    background-color: rgba(100, 100, 100, 0.9);
     position: fixed;
     overflow: auto;
     z-index: 6;
@@ -36,6 +36,10 @@ form div label {
     border-radius: 0.3rem;
     max-width: 500px; 
     max-height: 500px;
+}
+
+.myModal-header {
+    margin: -15px;
 }
 
 .myModal-header .title {
@@ -62,9 +66,9 @@ form div label {
 .myModal-footer {
     margin: auto;
     /* left: 25%;  */
-    width: 50%; 
+    width: 55%; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .myClose {

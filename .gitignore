@@ -1,0 +1,79 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#Mobile directory
+<<<<<<< HEAD
+/Mobile
+jquery-3.2.1.min.js
+PCD/bootstrap-3.3.7-dist/css/bootstrap-theme.css
+PCD/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map
+PCD/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css
+PCD/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map
+PCD/bootstrap-3.3.7-dist/css/bootstrap.css
+PCD/bootstrap-3.3.7-dist/css/bootstrap.css.map
+PCD/bootstrap-3.3.7-dist/css/bootstrap.min.css
+PCD/bootstrap-3.3.7-dist/css/bootstrap.min.css.map
+PCD/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot
+PCD/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg
+PCD/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf
+PCD/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff
+PCD/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2
+PCD/bootstrap-3.3.7-dist/js/bootstrap.js
+PCD/bootstrap-3.3.7-dist/js/bootstrap.min.js
+PCD/bootstrap-3.3.7-dist/js/npm.js
+PCD/js/jquery-3.2.1.min.js
+PDC/bootstrap-3.3.7-dist/css/bootstrap-theme.css
+PDC/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map
+PDC/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css
+PDC/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map
+PDC/bootstrap-3.3.7-dist/css/bootstrap.css
+PDC/bootstrap-3.3.7-dist/css/bootstrap.css.map
+PDC/bootstrap-3.3.7-dist/css/bootstrap.min.css
+PDC/bootstrap-3.3.7-dist/css/bootstrap.min.css.map
+PDC/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot
+PDC/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg
+PDC/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf
+PDC/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff
+PDC/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2
+PDC/bootstrap-3.3.7-dist/js/bootstrap.js
+PDC/bootstrap-3.3.7-dist/js/bootstrap.min.js
+PDC/bootstrap-3.3.7-dist/js/npm.js
+PDC/js/jquery-3.2.1.min.js
+=======
+Mobile/**
+>>>>>>> d698bd0a2c10a69a257082a68f759fa3f0618fad
