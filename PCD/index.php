@@ -10,20 +10,16 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">  
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
     <!--General CSS file  -->
     <link rel="stylesheet" href="css/style.css">
     <!--Header's CSS file  -->
     <link rel="stylesheet" href="css/header.css">
+    <!--Table's CSS file  -->
     <link rel="stylesheet" href="css/gerenciar.css" />
     <!--Modal's CSS file  -->
     <link rel="stylesheet" href="css/modal.css">
     <!-- Datepicker's CSS file -->
-    <link href="css/datepicker.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/datepicker.css">
     <!--Footer's CSS file  -->
     <link rel="stylesheet" href="css/footer.css">
 
@@ -32,7 +28,7 @@
     
 </head>
 <body class="container">
-    
+    <!--Header-->
     <?php
         include("header.html");
     ?>
@@ -100,7 +96,7 @@
             </button>
         </section>
     </main>
-    
+    <!--Footer-->
     <?php
         include("footer.html");
     ?>

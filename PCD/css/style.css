@@ -4,6 +4,7 @@ body {
     justify-content: space-between;
     flex-direction: column; */
     background-image: url("../img/bg1.jpg");
+    background-repeat: no-repeat;
     
 }
 
