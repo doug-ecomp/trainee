@@ -24,13 +24,13 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center; 
+    /* justify-content: center;  */
     background-color: white;
     margin-top: 20px; 
     margin-bottom: 20px;
     flex: 0 0 90vh;
-    padding: 20px 20px;
-    max-height: 75vh; 
+    padding: 30px 30px;
+    max-height: 80vh; 
     min-height: 600px; 
 }
 

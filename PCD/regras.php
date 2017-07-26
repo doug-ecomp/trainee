@@ -22,11 +22,11 @@
     <!--Footer's CSS file  -->
     <link rel="stylesheet" href="css/footer.css">
     
-    <!--My JS script  -->
+    <!--My JS file  -->
     <script src="js/regras.js"></script>
     
 
-    <title>Regras PCD</title>
+    <title>EcompJr-Regras PCD</title>
 </head>
 <body class="container">
     <!--Header-->
@@ -168,7 +168,7 @@
 
 </body>
 
-<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

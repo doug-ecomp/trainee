@@ -15,7 +15,7 @@
     <!--Header's CSS file  -->
     <link rel="stylesheet" href="css/header.css">
     <!--Table's CSS file  -->
-    <link rel="stylesheet" href="css/gerenciar.css" />
+    <link rel="stylesheet" href="css/gerenciar.css"/>
     <!--Modal's CSS file  -->
     <link rel="stylesheet" href="css/modal.css">
     <!-- Datepicker's CSS file -->
@@ -23,7 +23,7 @@
     <!--Footer's CSS file  -->
     <link rel="stylesheet" href="css/footer.css">
 
-    <!--My JS script  -->
+    <!--My JS file  -->
     <script src="js/script.js"></script>
     
 </head>
@@ -41,8 +41,8 @@
                         <img id="myPhoto"  src="img/profile1.jpg" alt="Foto">
                     </div>
                     <div id="info">
-                        <span id="profileName">Douglas Almeida Carneiro</span>
-                        <span id="profileRole">Trainee</span>
+                        <span id="profileName">Primeiro Segundo Terceiro</span>
+                        <span id="profileRole">Cargo</span>
                     </div>
                 </div>
                 <span class="col-md-3 col-xs-3 text-center" id="profilePoints">Pontos: 20</span>
