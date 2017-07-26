@@ -37,3 +37,9 @@
 button.btn:hover{
     color:blue;
 }
+
+@media (max-width:600px){
+    #innerTable{
+        width: 100px;
+    }
+}

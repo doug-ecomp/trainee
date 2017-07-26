@@ -10,7 +10,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">  
 
-<!-- Bootstrap -->
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -39,7 +39,6 @@
    
     <main>    
         <section>
-
             <div class="perfil col-md-10 col-xs-12">
                 <div id="infoWrap" class="col-md-9 col-xs-9">
                     <div>
@@ -55,44 +54,43 @@
 
             <div class="col-md-10 col-xs-12">
                 <div class="panel panel-primary">
-                        <div class="panel-heading"><h3>Minhas Advertências</h3></div>
-                        <div class="panel-body">
-                            <table id="innerTable" class="table table-responsive table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th>Motivo</th>
-                                            <th>Data</th>
-                                            <th>Pontos</th>
-                                            <th>Responsável</th>
-                                            <th>Indeferida</th>
-                                        </tr>
-                                        
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Ausência nas reuniões</td>
-                                            <td>22/07/2017</td>
-                                            <td>4</td>
-                                            <td>Kayo Costa</td>
-                                            <td>Não</td>
-                                        </tr>  
-                                        <tr>
-                                            <td>Ausência nas reuniões</td>
-                                            <td>22/07/2017</td>
-                                            <td>4</td>
-                                            <td>Kayo Costa</td>
-                                            <td>Não</td>
-                                        </tr>  
-                                        <tr>
-                                            <td>Ausência nas reuniões</td>
-                                            <td>22/07/2017</td>
-                                            <td>4</td>
-                                            <td>Kayo Costa</td>
-                                            <td>Não</td>
-                                        </tr>  
-                                    </tbody>
-                            </table>
-                        </div>    
+                    <div class="panel-heading"><h3>Minhas Advertências</h3></div>
+                    <div class="panel-body table-responsive">
+                        <table id="innerTable" class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Motivo</th>
+                                    <th>Data</th>
+                                    <th>Pontos</th>
+                                    <th>Responsável</th>
+                                    <th>Indeferida</th>
+                                </tr>
+                                
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Ausência nas reuniões</td>
+                                    <td>22/07/2017</td>
+                                    <td>4</td>
+                                    <td>Kayo Costa</td>
+                                    <td>Não</td>
+                                </tr>  
+                                <tr>
+                                    <td>Ausência nas reuniões</td>
+                                    <td>22/07/2017</td>
+                                    <td>4</td>
+                                    <td>Kayo Costa</td>
+                                    <td>Não</td>
+                                </tr>  
+                                <tr>
+                                    <td>Ausência nas reuniões</td>
+                                    <td>22/07/2017</td>
+                                    <td>4</td>
+                                    <td>Kayo Costa</td>
+                                    <td>Não</td>
+                                </tr>  
+                            </tbody>
+                        </table>
                     </div>
                 </div>   
             </div>
@@ -107,7 +105,7 @@
         include("footer.html");
     ?>
     
-</body class="container">
+</body>
 
     <?php
         include("modal.html");

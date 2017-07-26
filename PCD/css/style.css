@@ -9,14 +9,13 @@ body {
 
 body, body * {
     box-sizing: border-box;
+    
 }
 
 main {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    /* background-color: #1d6fb7; */
 
 }
 
@@ -30,7 +29,8 @@ section {
     margin-bottom: 20px;
     flex: 0 0 90vh;
     padding: 20px 20px;
-    max-height: 76vh; 
+    max-height: 75vh; 
+    min-height: 600px; 
 }
 
 button {
