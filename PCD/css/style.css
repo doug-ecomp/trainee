@@ -24,13 +24,13 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center; 
     background-color: white;
     margin-top: 20px; 
     margin-bottom: 20px;
     flex: 0 0 90vh;
-    padding: 20px 20px 0;
-    max-height: 75vh; 
+    padding: 20px 20px;
+    max-height: 76vh; 
 }
 
 button {
@@ -58,4 +58,86 @@ a:hover {
     text-decoration: none;
 }
 
+.perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-bottom: 25px;
+
+
+}
+
+.perfil #infoWrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil #infoWrap div {
+    margin: 20px 20px 0 20px;
+    color: #4B4A55; 
+}
+
+.perfil #infoWrap #info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px; 
+}
+
+.perfil #infoWrap #profileName {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.perfil #infoWrap #profileRole {
+    font-size: 18px;
+}
+
+.perfil #profilePoints {
+    font-size: 35px;
+    display: flex;
+    text-justify: center;
+    align-items: center;
+}
+
+#myPhoto {
+    border: 2px solid #1d6fb7;
+     width: 150px;
+    height: auto;  
+     /* height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 150px;  */
+}
+
+
+@media (max-width: 600px) {
+    .perfil{
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .perfil #infoWrap #info {
+        padding-top: 0px; 
+    }
+
+    .perfil #infoWrap #profileName {
+        font-size: 15px;
+    }
+
+    .perfil #infoWrap #profileRole {
+        font-size: 11px;
+    }
+
+    .perfil #profilePoints {
+        font-size: 20px;
+    } 
+
+    #myPhoto {
+    width: 90px;
+    height: auto; 
+}
+
+
+
+}
 
