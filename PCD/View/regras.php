@@ -11,19 +11,19 @@
     
     
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Vendors/Css/bootstrap.min.css">
 
     <!--General CSS file  -->
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!--Header's CSS file  -->
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../Assets/Css/header.css">
     <!--Regra Page's CSS  -->
-    <link rel="stylesheet" href="css/regras.css" />
+    <link rel="stylesheet" href="../Assets/Css/regras.css" />
     <!--Footer's CSS file  -->
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="../Assets/Css/footer.css">
     
     <!--My JS file  -->
-    <script src="js/regras.js"></script>
+    <script src="../Assets/Js/regras.js"></script>
     
 
     <title>EcompJr-Regras PCD</title>
@@ -168,11 +168,11 @@
 
 </body>
 
-<script src="js/jquery-3.2.1.min.js"></script>
+<script src="../Vendors/Js/jquery-3.2.1.min.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../Vendors/Js/bootstrap.min.js"></script>
 
 </html>

@@ -9,18 +9,19 @@
   
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="../Vendors/Css/bootstrap.min.css">
+
     <!--General CSS file  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../Assets/Css/style.css">
     <!--Header's CSS file  -->
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../Assets/Css/header.css">
     <!--Table's CSS file  -->
-    <link rel="stylesheet" href="css/gerenciar.css"/>
+    <link rel="stylesheet" href="../Assets/Css/gerenciar.css"/>
     <!--Footer's CSS file  -->
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="../Assets/Css/footer.css">
 
     <!--My JS file  -->
-    <script src="js/admPCD.js"></script>
+    <script src="../Assets/Js/admPCD.js"></script>
     
 
 </head>
@@ -195,12 +196,12 @@
 
 </body>
 
-<script src="js/jquery-3.2.1.min.js"></script>
+<script src="../Vendors/Js/jquery-3.2.1.min.js"></script>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../Vendors/Js/bootstrap.min.js"></script>
 <!--Datepicker's JS file  -->
 </html>

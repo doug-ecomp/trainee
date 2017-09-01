@@ -8,23 +8,24 @@
 
     
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="../Vendors/Css/bootstrap.min.css">
+    
+    <!-- Datepicker's CSS file -->
+    <link rel="stylesheet" href="../Vendors/Css/datepicker.css">
 
     <!--General CSS file  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../Assets/Css/style.css">
     <!--Header's CSS file  -->
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../Assets/Css/header.css">
     <!--Table's CSS file  -->
-    <link rel="stylesheet" href="css/gerenciar.css"/>
+    <link rel="stylesheet" href="../Assets/Css/gerenciar.css"/>
     <!--Modal's CSS file  -->
-    <link rel="stylesheet" href="css/modal.css">
-    <!-- Datepicker's CSS file -->
-    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="../Assets/Css/modal.css">
     <!--Footer's CSS file  -->
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="../Assets/Css/footer.css">
 
     <!--My JS file  -->
-    <script src="js/script.js"></script>
+    <script src="../Assets/Js/script.js"></script>
     
 </head>
 <body class="container">
@@ -38,7 +39,7 @@
             <div class="perfil col-md-10 col-xs-12">
                 <div id="infoWrap" class="col-md-9 col-xs-9">
                     <div>
-                        <img id="myPhoto"  src="img/profile1.jpg" alt="Foto">
+                        <img id="myPhoto"  src="../Assets/Img/profile1.jpg" alt="Foto">
                     </div>
                     <div id="info">
                         <span id="profileName">Primeiro Segundo Terceiro</span>
@@ -108,13 +109,13 @@
     ?>
 
 
-<script src="js/jquery-3.2.1.min.js"></script>
+<script src="../Vendors/Js/jquery-3.2.1.min.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../Vendors/Js/bootstrap.min.js"></script>
 <!--Datepicker's JS file  -->
-<script src="js/bootstrap-datepicker.js"></script>
-<script src="js/bootstrap-datepicker.pt-BR.min.js"></script>
+<script src="../Vendors/Js/bootstrap-datepicker.js"></script>
+<script src="../Vendors/Js/bootstrap-datepicker.pt-BR.min.js"></script>
 </html>

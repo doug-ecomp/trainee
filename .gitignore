@@ -40,11 +40,6 @@ Thumbs.db
 /Mobile/*
 /Wordpress/*
 **/jquery-3.2.1.min.js
+**/jquery-3.2.1.js
 **/bootstrap-3.3.7-dist/*
 
-
-PCD/js/jquery-3.2.1.min.js
-
-
-PDC/js/jquery-3.2.1.min.js
-PCD/js/jquery-3.2.1.js
