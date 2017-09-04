@@ -29,7 +29,7 @@ function initPage() {
 	$('#data').datepicker({
 			language: "pt-BR",
 			endDate: "today"
-        });
+		});
 }
 
 window.addEventListener("load", initPage);

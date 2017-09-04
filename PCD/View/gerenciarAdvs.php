@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+<?php
+    include("../Controller/session_check.php");
+?>
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">

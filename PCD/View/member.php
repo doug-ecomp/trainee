@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+<?php
+    include("../Controller/session_check.php");
+?>
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -25,7 +30,7 @@
     <link rel="stylesheet" href="../Assets/Css/footer.css">
 
     <!--My JS file  -->
-    <script src="../Assets/Js/script.js"></script>
+    <script src="../Assets/Js/member.js"></script>
     
 </head>
 <body class="container">
